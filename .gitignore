@@ -1,0 +1,17 @@
+# KiCad
+*.lck
+*.kicad_prl
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+_autosave-*
+fp-info-cache
+*.net
+
+# Fab outputs (regenerate, don't commit)
+gerbers/
+production/
+
+# Misc
+.history/
+Thumbs.db
